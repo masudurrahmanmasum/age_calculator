@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="main-div">
+        <div class="sub-div">
+            <h2>Type your Birth Date</h2>
+            <div class="imp_div">
+                <input type="text" placeholder="Date" class="Date totalDate" maxlength="2">
+                <input type="text" placeholder="Month" class="Month totalDate" maxlength="2">
+                <input type="text" placeholder="Year" class="Year totalDate" maxlength="4">   
+            </div> 
+            <div class="btn_div">
+                <button class="okay" onclick="age()">Enter</button>
+            </div>
+
+            <h5 class="show_result"></h5>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
